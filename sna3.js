@@ -174,9 +174,9 @@ var el = 1;
 ele2[0].addEventListener('click', function () {
     el = 1 - el;
     if (el == 0)
-        ele2[0].innerText = "pause";
+        ele2[0].innerText = "Pause";
     else
-        ele2[0].innerText = "resume";
+        ele2[0].innerText = "Resume";
 });
 
 function set1() {
